@@ -6,3 +6,37 @@ Green: #00B172
 White: #FFF
 
 */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+header{
+    display: flex;
+    background-image:url("https://github.com/eduardogenari/clon-spotify/blob/master/images/landing.jpg?raw=true");
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+
+section{
+    display: flex;
+    height: 550px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    background-color: #00B172;
+    height: 850px;
+    justify-content: center;
+    align-items: center;
+}
+
