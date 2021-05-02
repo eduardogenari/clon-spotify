@@ -7,36 +7,78 @@ White: #FFF
 
 */
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 15px;
 }
 
-header{
-    display: flex;
-    background-image:url("https://github.com/eduardogenari/clon-spotify/blob/master/images/landing.jpg?raw=true");
-    height: 850px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
-    color: azure;
+ul {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style-type: none;
 }
 
-section{
-    display: flex;
-    height: 550px;
-    justify-content: space-around;
-    align-items: center;
+li:not(:last-of-type) {
+  margin-right: 12px;
 }
 
-footer{
-    display: flex;
-    background-color: #00B172;
-    height: 850px;
-    justify-content: center;
-    align-items: center;
+a {
+  text-decoration: none;
+  color: #252525;
 }
 
+header {
+  background-image: url("https://github.com/eduardogenari/clon-spotify/blob/master/images/landing.jpg?raw=true");
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header > h1 {
+  /*margin-bottom: 20px;*/
+  font-size: 70px;
+  font-weight: 700;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+header > h3 {
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  height: 550px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  display: flex;
+  background-color: #00b172;
+  height: 850px;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  display: flex;
+  color: #00b172;
+  justify-content: center;
+}
